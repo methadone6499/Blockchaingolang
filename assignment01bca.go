@@ -30,7 +30,7 @@ type Blockchain struct {
 }
 
 // this function gets nil chainhead
-func genesisblock(chainhead *Blockchain) *Blockchain {
+func GenesisBlock(chainhead *Blockchain) *Blockchain {
 	var x *Blockchain
 	x = new(Blockchain)
 	x.prev = chainhead
